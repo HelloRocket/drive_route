@@ -27,7 +27,8 @@ basic.showLeds(`
     `)
 basic.clearScreen()
 List_Item = 0
-Directions_List = ["a", "b", "c"]
+// Menu / Left / Forward / Right
+Directions_List = ["M", "L", "F", "R"]
 Route = []
 Direction2 = Directions_List[List_Item]
 basic.showString(Direction2)
